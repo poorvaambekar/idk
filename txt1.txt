@@ -1,11 +1,16 @@
- Volume in drive C is Windows
- Volume Serial Number is EE81-4A1F
+pipeline {
+    agent any
 
- Directory of C:\Users\lenovo\Desktop\caseStudy
-
-08/26/2021  02:51 PM    <DIR>          .
-08/26/2021  02:51 PM    <DIR>          ..
-08/26/2021  02:49 PM               402 test.txt
-08/26/2021  02:51 PM                 0 txt1.txt
-               2 File(s)            402 bytes
-               2 Dir(s)  108,228,542,464 bytes free
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello World'
+            }
+        } 
+        stage('Build') {
+            steps {
+                echo 'Building'
+            }
+        }
+    }
+}
