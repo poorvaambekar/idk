@@ -6,6 +6,5 @@
 08/26/2021  02:49 PM    <DIR>          .
 08/26/2021  02:49 PM    <DIR>          ..
 08/26/2021  02:49 PM                 0 test.txt
-08/26/2021  02:48 PM                 0 txt.txt
                2 File(s)              0 bytes
                2 Dir(s)  108,229,509,120 bytes free
